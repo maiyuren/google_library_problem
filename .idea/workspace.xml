@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1f781f1-873b-43b8-a311-a8470855a405" name="Default Changelist" comment="" />
+    <list default="true" id="f1f781f1-873b-43b8-a311-a8470855a405" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +30,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="428" />
+          <entry key="py" value="1462" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="428" />
+          <entry key="Python" value="1462" />
         </counts>
       </usages-collector>
     </session>
@@ -43,10 +45,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/proj.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            <state relative-caret-position="375">
+              <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
               <folding>
-                <marker date="1582223320764" expanded="true" signature="17:22" ph="..." />
+                <marker date="1582226459227" expanded="true" signature="17:22" ph="..." />
+                <marker date="1582226459227" expanded="true" signature="426:504" ph="..." />
+                <marker date="1582226459227" expanded="true" signature="958:993" ph="..." />
+                <marker date="1582226459227" expanded="true" signature="1163:1164" ph="..." />
               </folding>
             </state>
           </provider>
@@ -61,6 +66,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -74,6 +82,7 @@
     <option name="width" value="1089" />
     <option name="height" value="618" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -137,10 +146,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/proj.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="375">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
           <folding>
-            <marker date="1582223320764" expanded="true" signature="17:22" ph="..." />
+            <marker date="1582226459227" expanded="true" signature="17:22" ph="..." />
+            <marker date="1582226459227" expanded="true" signature="426:504" ph="..." />
+            <marker date="1582226459227" expanded="true" signature="958:993" ph="..." />
+            <marker date="1582226459227" expanded="true" signature="1163:1164" ph="..." />
           </folding>
         </state>
       </provider>

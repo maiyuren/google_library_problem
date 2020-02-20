@@ -1,4 +1,5 @@
 
+from libary_part2_processing import *
 
 class Library:
 
@@ -13,6 +14,9 @@ class Library:
 
         # 0 for not-activated, -1 for activating, 1 for activated
         self.flag = 0
+
+        # Sent books ids
+        self.sent_books = []
 
     def remove_book(self, id):
         try:
@@ -37,6 +41,7 @@ class Library:
 
     def get_books(self):
         """ This returns [id, value] for the best book """
+        self.sent_books = self.sent_books + [i for i,_ in self.books[:self.max_ship_num]]
         return self.books[:self.max_ship_num]
 
     def get_value(self, days_left):
@@ -49,6 +54,8 @@ class Library:
 
     def reduce_signup(self):
         self.sign_up_preocess -= 1
+        if self.flag == 0:
+            self.flag = -1
         if self.sign_up_preocess <= 0:
             self.flag = 1
 
@@ -72,3 +79,24 @@ def load_data(filename):
 
     Library.SCORES = scores
     return info, libs
+
+
+if __name__ == '__main__':
+
+    filename = 'data_folder/d_tough_choices.txt'
+    info, library_array = load_data(filename)
+    days = info[2]
+
+    MAX_VALUE, information = find_max_value(library_array, days)
+
+    print(MAX_VALUE, information)
+
+    with open('outputd.txt', 'w') as f:
+        f.write(str(len(information))+'\n')
+
+        for i,l_info in enumerate(information):
+            f.write(' '.join(str(e) for e in l_info[0])+'\n')
+            if i==len(information)-1:
+                f.write(' '.join(str(e) for e in l_info[1]))
+            else:
+                f.write(' '.join(str(e) for e in l_info[1])+'\n')

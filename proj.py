@@ -2,6 +2,8 @@
 
 class Library:
 
+    SCORES = None
+
     def __init__(self, lib_id):
         self.books = []
         self.sign_up_preocess = None
@@ -12,9 +14,9 @@ class Library:
         # 0 for not-activated, -1 for activating, 1 for activated
         self.flag = 0
 
-    def remove_book(self, scores, id):
+    def remove_book(self, id):
         try:
-            self.books.remove([id, scores[id]])
+            self.books.remove([id, Library.SCORES[id]])
             self.num_books -= 1
         except ValueError:
             pass
@@ -37,6 +39,19 @@ class Library:
         """ This returns [id, value] for the best book """
         return self.books[:self.max_ship_num]
 
+    def get_value(self, days_left):
+        effective_days = days_left - self.sign_up_preocess
+        num_books = effective_days * self.max_ship_num
+        if num_books > self.num_books:
+            num_books = self.num_books
+
+        return sum([i for _,i in self.books[:num_books]])
+
+    def reduce_signup(self):
+        self.sign_up_preocess -= 1
+        if self.sign_up_preocess <= 0:
+            self.flag = 1
+
 
 def load_data(filename):
 
@@ -55,6 +70,5 @@ def load_data(filename):
             library.load_library(scores, info_line, book_line)
             libs.append(library)
 
+    Library.SCORES = scores
     return info, libs
-
-

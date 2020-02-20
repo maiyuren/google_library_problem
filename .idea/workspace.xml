@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <list default="true" id="f1f781f1-873b-43b8-a311-a8470855a405" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj.py" afterDir="false" />
@@ -9,6 +10,12 @@
 =======
     <list default="true" id="f1f781f1-873b-43b8-a311-a8470855a405" name="Default Changelist" comment="" />
 >>>>>>> aa6aae278daea917f5188de67f86ba984731aee1
+=======
+    <list default="true" id="f1f781f1-873b-43b8-a311-a8470855a405" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libary_part2_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/libary_part2_processing.py" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,6 +128,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
 >>>>>>> aa6aae278daea917f5188de67f86ba984731aee1
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -132,8 +144,24 @@
       <option name="presentableId" value="Default" />
       <updated>1582222209803</updated>
     </task>
+    <task id="LOCAL-00001" summary="Malavan First commit">
+      <created>1582224398115</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582224398115</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Malavan First commit">
+      <created>1582224407576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582224407576</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1519" height="1017" extended-state="6" />
@@ -176,6 +204,12 @@
       </provider>
     </entry>
 =======
+=======
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Malavan First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Malavan First commit" />
+  </component>
+>>>>>>> Stashed changes
   <component name="WindowStateProjectService">
     <state x="1679" y="763" width="782" height="919" key="CommitChangelistDialog2" timestamp="1582224398028">
       <screen x="1080" y="666" width="1920" height="1080" />

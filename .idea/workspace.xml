@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f1f781f1-873b-43b8-a311-a8470855a405" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/proj.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+    <list default="true" id="f1f781f1-873b-43b8-a311-a8470855a405" name="Default Changelist" comment="" />
+>>>>>>> aa6aae278daea917f5188de67f86ba984731aee1
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FUSProjectUsageTrigger">
     <session id="1815258014">
       <usages-collector id="statistics.lifecycle.project">
@@ -59,6 +64,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> aa6aae278daea917f5188de67f86ba984731aee1
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -68,6 +75,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -75,13 +83,16 @@
         <option value="$PROJECT_DIR$/proj.py" />
       </list>
     </option>
+=======
+>>>>>>> aa6aae278daea917f5188de67f86ba984731aee1
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="445" />
-    <option name="y" value="-29" />
-    <option name="width" value="1089" />
-    <option name="height" value="618" />
+  <component name="ProjectId" id="1Y5EsjWyCM4VwQYNafCkg50cdZ8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -103,6 +114,12 @@
         </RuleState>
       </list>
     </option>
+=======
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+>>>>>>> aa6aae278daea917f5188de67f86ba984731aee1
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -117,6 +134,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1519" height="1017" extended-state="6" />
     <editor active="true" />
@@ -157,5 +175,16 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="WindowStateProjectService">
+    <state x="1679" y="763" width="782" height="919" key="CommitChangelistDialog2" timestamp="1582224398028">
+      <screen x="1080" y="666" width="1920" height="1080" />
+    </state>
+    <state x="1679" y="763" width="782" height="919" key="CommitChangelistDialog2/1080.666.1920.1080/0.693.1080.1227@1080.666.1920.1080" timestamp="1582224398028" />
+    <state x="1978" y="854" key="SettingsEditor" timestamp="1582224274966">
+      <screen x="1080" y="666" width="1920" height="1080" />
+    </state>
+    <state x="1978" y="854" key="SettingsEditor/1080.666.1920.1080/0.693.1080.1227@1080.666.1920.1080" timestamp="1582224274966" />
+>>>>>>> aa6aae278daea917f5188de67f86ba984731aee1
   </component>
 </project>

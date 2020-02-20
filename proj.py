@@ -11,12 +11,13 @@ class Library:
 
         # 0 for not-activated, -1 for activating, 1 for activated
         self.flag = 0
-        self.num_activating =
 
     def remove_book(self, scores, id):
-        # Todo Make an exception if the book not in this library
-        self.books.remove([id, scores[id]])
-        self.num_books -= 1
+        try:
+            self.books.remove([id, scores[id]])
+            self.num_books -= 1
+        except ValueError:
+            pass
 
     def load_library(self, scores, info_line, book_line):
 
@@ -35,9 +36,6 @@ class Library:
     def get_book(self):
         """ This returns [id, value] for the best book """
         return self.books[0]
-
-    def iterate_day(self):
-        if self.flag == -1:
 
 
 def load_data(filename):

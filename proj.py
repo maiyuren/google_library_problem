@@ -33,9 +33,9 @@ class Library:
     def sort_books(self):
         self.books = sorted(self.books, key=lambda l: l[1])
 
-    def get_book(self):
+    def get_books(self):
         """ This returns [id, value] for the best book """
-        return self.books[0]
+        return self.books[:self.max_ship_num]
 
 
 def load_data(filename):
@@ -56,3 +56,5 @@ def load_data(filename):
             libs.append(library)
 
     return info, libs
+
+
